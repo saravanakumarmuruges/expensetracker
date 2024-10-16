@@ -10,13 +10,12 @@
 - [Environment Variables](#environment-variables)
 
 ## Introduction
-This is a Django-based web application designed to [brief description of what your app does].
+This Django-based web application is designed to update personal cash flow and keep track of all transactions like income, expenses and savings.
 
 ## Features
-- User authentication and authorization
-- CRUD operations for [your app’s purpose]
-- API integration for [any APIs you're using]
-- [Any other important features]
+- User authentication and authorization.
+- CRUD operations to create, update and delete tables transactions, income_type, expense_type, savings_type and users. 
+- With this base APIs, it can be extended to any further user-friendly applications.
 
 ## Technologies Used
 - **Django** - The web framework used for developing the app
