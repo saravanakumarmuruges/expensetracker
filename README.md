@@ -78,8 +78,9 @@ docker run -d -p 8000:8000 your-app-name
 
 ## Environment Variables
 The following environment variables should be configured for proper functioning of the app:
-
+```bash
 SECRET_KEY: Django secret key for security
 DEBUG: Set to False in production
 DATABASE_URL: Connection URL for the database
 ALLOWED_HOSTS: Comma-separated list of allowed hosts
+```
