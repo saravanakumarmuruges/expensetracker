@@ -38,9 +38,48 @@ Make sure you have the following installed:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
-### Clone the repository
+### Create and activate a virtual environment
 ```bash
 python -m venv env
 source env/bin/activate  # For Windows, use `env\Scripts\activate`
 ```
 
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Migrate the database
+```bash
+python manage.py migrate
+```
+
+### Create a superuser
+```bash
+python manage.py createsuperuser
+```
+
+### Run the application locally
+```bash
+python manage.py runserver
+```
+
+## Docker Deployment
+
+### Build the Docker image
+```bash
+docker buildx build -t your-tag-name .
+```
+
+### Run the container
+```bash
+docker run -d -p 8000:8000 your-app-name
+```
+
+## Environment Variables
+The following environment variables should be configured for proper functioning of the app:
+
+SECRET_KEY: Django secret key for security
+DEBUG: Set to False in production
+DATABASE_URL: Connection URL for the database
+ALLOWED_HOSTS: Comma-separated list of allowed hosts
