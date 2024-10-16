@@ -5,7 +5,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Running the Application](#running-the-application)
+- [Running the Application](#run-the-application-locally)
 - [Docker Deployment](#docker-deployment)
 - [Environment Variables](#environment-variables)
 
