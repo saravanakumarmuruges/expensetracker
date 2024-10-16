@@ -37,3 +37,10 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
+### Clone the repository
+```bash
+python -m venv env
+source env/bin/activate  # For Windows, use `env\Scripts\activate`
+```
+
